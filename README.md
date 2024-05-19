@@ -22,9 +22,12 @@
 
 ## 如何使用
 
+curl -fsSL https://get.docker.com -o get-docker.sh
+ sudo sh get-docker.sh
+
 step -1： `请一定仔细阅读配置的各项说明`
 
-step 0: 找教程安装`最新版`Docker 及 docker-compose
+step 0: 找教程安装`最新版`Docker 及 docker compose
 
 step 1: 复制一份`.env.example` 到根目录， 并改名`.env`
 
@@ -35,7 +38,7 @@ step 3: 根据描述， 按需修改各项变量， 特别注意如要修改 zlm
 step 4: 执行
 
 ```shell
-  docker-compose build && docker-compose up -d
+  docker compose build && docker compose up -d
 ```
 
 step 5: 遇到问题可以在[知识星球](https://t.zsxq.com/0dpu05aPO)找咸鱼(SaltFish)
